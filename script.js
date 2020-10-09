@@ -30,7 +30,7 @@ $("#animal-buttons").on("click", ".animal-button", function() {
 	var busqueda= $(this).text();
 	//console.log(`http://api.giphy.com/v1/gifs/search?api_key=s0Mm4IpRd8MxYDCHP14mEjkA4zhfsWq2&q=${busqueda}&limit=10&offset=0&rating=g&lang=en`);
 	//param
-	var api =`http://api.giphy.com/v1/gifs/search?api_key=s0Mm4IpRd8MxYDCHP14mEjkA4zhfsWq2&q=${busqueda}&limit=10&offset=0&rating=g&lang=en`;
+	var api =`https://api.giphy.com/v1/gifs/search?api_key=s0Mm4IpRd8MxYDCHP14mEjkA4zhfsWq2&q=${busqueda}&limit=10&offset=0&rating=g&lang=en`;
 	
     $.ajax({
 		url: api,
